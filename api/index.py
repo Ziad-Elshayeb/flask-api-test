@@ -12,5 +12,5 @@ def greet():
     else:
         return jsonify({"error": "please enter a name"})
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     app.run(debug=True)
